@@ -1,0 +1,11 @@
+AppDaemon:
+  logfile: STDOUT
+  errorfile: STDERR
+  logsize: 100000
+  log_generations: 3
+  threads: 10
+  time_zone: <time zone>
+  api_port: 5000
+HASS:
+  ha_url: <some_url>
+  ha_key: <some key>
