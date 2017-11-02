@@ -1,0 +1,174 @@
+[
+  {
+    "Parameters": {
+      "OnCommand": 1,
+      "OffCommand": 0,
+      "DeviceId": 65793,
+      "UnitCode": 1
+    },
+    "Name": "BlueLight",
+    "DisplayName": "Blue light",
+    "Description": "Blue light",
+    "Category": "Switch",
+    "Type": "KakuSwitch",
+    "ValueType": "OnOffValue",
+    "SupportedOperations": {
+      "GetValue": "/api/sensor/BlueLight/GetValue",
+      "GetLastUpdateTime": "/api/sensor/BlueLight/GetLastUpdateTime",
+      "TurnOn": "/api/sensor/BlueLight/TurnOn",
+      "TurnOff": "/api/sensor/BlueLight/TurnOff",
+      "Initialize": "/api/sensor/BlueLight/Initialize"
+    }
+  },
+  {
+    "Parameters": {
+      "OnCommand": 1,
+      "OffCommand": 0,
+      "DeviceId": 65793,
+      "UnitCode": 2
+    },
+    "Name": "RedLight",
+    "DisplayName": "Red light",
+    "Description": "Red light",
+    "Category": "Switch",
+    "Type": "KakuSwitch",
+    "ValueType": "OnOffValue",
+    "SupportedOperations": {
+      "GetValue": "/api/sensor/RedLight/GetValue",
+      "GetLastUpdateTime": "/api/sensor/RedLight/GetLastUpdateTime",
+      "TurnOn": "/api/sensor/RedLight/TurnOn",
+      "TurnOff": "/api/sensor/RedLight/TurnOff",
+      "Initialize": "/api/sensor/RedLight/Initialize"
+    }
+  },
+  {
+    "Parameters": {
+      "OnCommand": 1,
+      "OffCommand": 0,
+      "DeviceId": 65793,
+      "UnitCode": 3
+    },
+    "Name": "Fan",
+    "DisplayName": "Portable fan",
+    "Description": "Fan",
+    "Category": "Switch",
+    "Type": "KakuSwitch",
+    "ValueType": "OnOffValue",
+    "SupportedOperations": {
+      "GetValue": "/api/sensor/Fan/GetValue",
+      "GetLastUpdateTime": "/api/sensor/Fan/GetLastUpdateTime",
+      "TurnOn": "/api/sensor/Fan/TurnOn",
+      "TurnOff": "/api/sensor/Fan/TurnOff",
+      "Initialize": "/api/sensor/Fan/Initialize"
+    }
+  },
+  {
+    "Parameters": {
+      "OnCommand": 1,
+      "OffCommand": 0,
+      "DeviceId": 65793,
+      "UnitCode": 4
+    },
+    "Name": "Dimmer",
+    "DisplayName": "Dimmer",
+    "Description": "Fan",
+    "Category": "Switch",
+    "Type": "KakuSwitch",
+    "ValueType": "OnOffValue",
+    "SupportedOperations": {
+      "GetValue": "/api/sensor/Dimmer/GetValue",
+      "GetLastUpdateTime": "/api/sensor/Dimmer/GetLastUpdateTime",
+      "TurnOn": "/api/sensor/Dimmer/TurnOn",
+      "TurnOff": "/api/sensor/Dimmer/TurnOff",
+      "Initialize": "/api/sensor/Dimmer/Initialize"
+    }
+  },
+  {
+    "Parameters": {
+      "OnCommand": 1,
+      "OffCommand": 0,
+      "DeviceId": 14276314,
+      "UnitCode": 10
+    },
+    "Name": "PIR",
+    "DisplayName": "Infrared detector",
+    "Description": "Motion detector",
+    "Category": "Switch",
+    "Type": "KakuReadOnlySwitch",
+    "ValueType": "OnOffValue",
+    "SupportedOperations": {
+      "GetValue": "/api/sensor/PIR/GetValue",
+      "GetLastUpdateTime": "/api/sensor/PIR/GetLastUpdateTime",
+      "Initialize": "/api/sensor/PIR/Initialize"
+    }
+  },
+  {
+    "Parameters": {
+      "Url": "http://192.168.1.229/snapshot.cgi",
+      "Resolution": "640x480",
+      "Username": "visitor",
+      "Password": "visitor"
+    },
+    "Name": "IPCamera",
+    "DisplayName": "Attic Camera",
+    "Description": "IP Camera @ attic",
+    "Category": "Camera",
+    "Type": "Camera",
+    "ValueType": "ImageValue",
+    "SupportedOperations": {
+      "GetValue": "/api/sensor/IPCamera/GetValue",
+      "GetLastUpdateTime": "/api/sensor/IPCamera/GetLastUpdateTime",
+      "GetImageAsync": "/api/sensor/IPCamera/GetImageAsync",
+      "Initialize": "/api/sensor/IPCamera/Initialize"
+    }
+  },
+  {
+    "Parameters": {
+      "SensorId": 255
+    },
+    "Name": "TempDesk",
+    "DisplayName": "Desk temperature",
+    "Description": "Temperature at my desk",
+    "Category": "Overig",
+    "Type": "FruitTempSensorHighAccuracy",
+    "ValueType": "QuantityValue`1",
+    "SupportedOperations": {
+      "GetValue": "/api/sensor/TempDesk/GetValue",
+      "GetLastUpdateTime": "/api/sensor/TempDesk/GetLastUpdateTime",
+      "Initialize": "/api/sensor/TempDesk/Initialize"
+    }
+  },
+  {
+    "Parameters": {
+      "SensorId": 254
+    },
+    "Name": "HumidityDesk",
+    "DisplayName": "Desk humidity",
+    "Description": "Humidity at my desk",
+    "Category": "Overig",
+    "Type": "FruitHumiditySensorHighAccuracy",
+    "ValueType": "QuantityValue`1",
+    "SupportedOperations": {
+      "GetValue": "/api/sensor/HumidityDesk/GetValue",
+      "GetLastUpdateTime": "/api/sensor/HumidityDesk/GetLastUpdateTime",
+      "Initialize": "/api/sensor/HumidityDesk/Initialize"
+    }
+  },
+  {
+    "Parameters": {
+      "Command": 1,
+      "DeviceId": 14948386,
+      "UnitCode": 1
+    },
+    "Name": "DeurbelVoor",
+    "DisplayName": "Doorbell",
+    "Description": "My doorbell",
+    "Category": "Begane grond",
+    "Type": "KakuButton",
+    "ValueType": null,
+    "SupportedOperations": {
+      "PressButton": "/api/sensor/DeurbelVoor/PressButton",
+      "Initialize": "/api/sensor/DeurbelVoor/Initialize"
+    }
+  }
+]

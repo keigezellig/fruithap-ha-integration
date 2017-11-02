@@ -1,3 +1,9 @@
 hello_world:
   module: hello
   class: HelloWorld
+
+EventPusher:
+  module: statechange_pusher
+  class: StateChangePusher
+  topic: events
+  camera_refresh: 10

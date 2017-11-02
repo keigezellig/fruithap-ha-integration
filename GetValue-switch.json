@@ -1,0 +1,10 @@
+{
+  "TimeStamp": "2017-11-02T16:47:40.874437+01:00",
+  "SensorName": "BlueLight",
+  "Data": {
+    "Content": {
+      "Value": 2
+    },
+    "TypeName": "OnOffValue"
+  }
+}
