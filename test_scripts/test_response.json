@@ -1,0 +1,74 @@
+[
+  {
+    "Description": "pir",
+    "SupportedOperations": {
+      "GetValue": "",
+      "Initialize": "",
+      "GetLastUpdateTime": ""
+    },
+    "Category": "binary_sensor",
+    "Name": "binary_sensor.pir",
+    "ValueType": "OnOffValue"
+  },
+  {
+    "Description": "ip_camera",
+    "SupportedOperations": {
+      "GetValue": "",
+      "Initialize": "",
+      "GetLastUpdateTime": ""
+    },
+    "Category": "camera",
+    "Name": "camera.ip_camera",
+    "ValueType": "ImageValue"
+  },
+  {
+    "Description": "kaku_sw3",
+    "SupportedOperations": {
+      "TurnOn": "",
+      "TurnOff": "",
+      "GetValue": "",
+      "Initialize": "",
+      "GetLastUpdateTime": ""
+    },
+    "Category": "switch",
+    "Name": "switch.kaku_sw3",
+    "ValueType": "OnOffValue"
+  },
+  {
+    "Description": "Doorbeel",
+    "SupportedOperations": {
+      "GetValue": "",
+      "Initialize": "",
+      "GetLastUpdateTime": ""
+    },
+    "Category": "binary_sensor",
+    "Name": "binary_sensor.kaku_button",
+    "ValueType": "OnOffValue"
+  },
+  {
+    "Description": "kaku_sw2",
+    "SupportedOperations": {
+      "TurnOn": "",
+      "TurnOff": "",
+      "GetValue": "",
+      "Initialize": "",
+      "GetLastUpdateTime": ""
+    },
+    "Category": "switch",
+    "Name": "switch.kaku_sw2",
+    "ValueType": "OnOffValue"
+  },
+  {
+    "Description": "kaku_sw1",
+    "SupportedOperations": {
+      "TurnOn": "",
+      "TurnOff": "",
+      "GetValue": "",
+      "Initialize": "",
+      "GetLastUpdateTime": ""
+    },
+    "Category": "switch",
+    "Name": "switch.kaku_sw1",
+    "ValueType": "OnOffValue"
+  }
+]
